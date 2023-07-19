@@ -1,0 +1,52 @@
+body{
+    background-image: url("../Images/pxfuel\ \(1\).jpg");
+    
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+   background-attachment: fixed;
+   display: flex;
+   flex-direction: column;
+
+}
+span{
+    
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(250, 247, 247);
+    font-size: 70px;
+    margin-bottom: 10%;
+
+    
+}
+.fashionking{
+    font-family:'Times New Roman', Times, serif;
+    font-style:italic;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 100px;
+    justify-content: center;                                                                                                                                        
+    margin-top:10%;
+    color:#9ff79f; 
+}
+h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size:200%;
+}
+.Featured{
+     text-align: center;
+        font-size:300%;
+        color: #fff;
+        font-family: eczar, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        background-image: linear-gradient(to top left, rgb(139, 135, 135), rgb(169, 224, 67), rgb(134, 130, 130));
+        height: 9%;
+        width: 100%;
+        margin-top: 15%;
+        margin-bottom:-12%;
+   
+}

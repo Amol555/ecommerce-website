@@ -1,0 +1,67 @@
+
+.login1{
+    border-radius: 10px 10px 10px 10px;
+background-color: rgb(26, 245, 216);
+color: black;
+}
+
+.search1{
+    border-radius: 15px 0px 0px 15px;
+background-color: rgb(26, 245, 216);
+color: black;
+
+
+}
+.navform{
+    border-radius: 0px 15px 15px 0px;
+   
+}
+@media screen and (max-width:600px){
+    .topnav a:not(:first-child){display: none;}
+    .topnav a.icon{
+        float:right;
+        display: block;
+    }
+}
+@media screen and (max-width:600px){
+   .topnav.responsive{position: relative;} 
+   .topnav.responsive .icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+   }
+}
+.navbar-brand {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
+    color:rgb(15, 15, 15);
+    font-size: 50px;
+}
+
+
+form{
+    text-align: center;
+}
+
+header{
+    
+    justify-content: space-between;
+    align-items: center;
+    opacity: 90%;
+    width: 120%;
+
+}
+
+
+
+.containter{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.wrapper{
+
+    margin-left: 30%;
+    margin-right: 30%;
+    display: inline-flex;
+    flex-direction: row;
+}

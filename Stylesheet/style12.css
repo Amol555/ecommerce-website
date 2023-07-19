@@ -1,0 +1,27 @@
+form{
+    text-align: center;
+}
+
+header{
+    
+    justify-content: space-between;
+    align-items: center;
+    opacity: 90%;
+    
+    width: 100%;
+
+}
+
+
+
+.containter{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.wrapper{
+
+    margin-left: 30%;
+    margin-right: 30%;
+    display: inline-flex;
+    flex-direction: row;
+}

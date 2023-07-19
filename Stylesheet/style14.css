@@ -1,0 +1,83 @@
+/* header*/
+body{
+  background-image: url("../Images/pxfuel.jpg");
+  
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+ background-attachment: fixed;
+ display: flex;
+ flex-direction: column;
+}
+
+
+
+
+
+/*Login Form CSS*/
+
+
+
+.login{
+  
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0%;
+  font-family:'Times New Roman', Times, serif;
+  margin-top: 50%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 100%;
+  font-size: large;
+  color: black;
+  
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  opacity: 100%;
+ 
+}
+.btn8{
+  color:black;
+  border-radius: 5px;
+  height: 20%;
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 35%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: bold;
+
+  
+}
+input{
+  height: 20%;
+  width: 150%;
+  border-radius: 10px;
+  margin-bottom:5px;
+  border-color: rgb(50, 48, 48);
+  font-family:'Times New Roman', Times, serif;
+
+}
+strong{
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 180%;
+  color:white;
+  margin-left: 50%;
+  
+  
+
+}
+
+h5{
+  font-size: 130%;
+  text-align:start;
+  margin-left: 10%;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+
+}
+

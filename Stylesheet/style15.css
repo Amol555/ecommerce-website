@@ -1,0 +1,170 @@
+body{
+    background-image: url("../Images/jcrew.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+ 
+}
+
+
+
+/*---------nav end-----*/
+.cart-page{
+    
+    margin: 80px auto;
+    
+    
+}
+table{
+    background-color: rgb(243, 240, 235);
+    width: 80%;
+    margin-left: 10%;
+    border-collapse: collapse;
+    border: solid 2px black;
+}   
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+strong{
+    
+    color: solid black;
+    font-size: 30px;
+    display:flex;
+   
+}
+
+.quantity{
+    display: flex;
+    flex-direction: row;
+}
+
+th{
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background:#ff523b;
+    font-weight: normal;
+    border: solid 2px black;
+
+}
+td{
+    padding: 10px 5px;
+    border-top: solid 2px black;
+    text-align: center;
+    background-color: rgb(247, 237, 242);
+}
+td input{
+    width:50px;
+    height:30px;
+    padding: 5px;
+}
+td a{
+    color:#ff523b;
+    font-size:16px;
+    
+}
+
+td img{
+    width: 100px;
+    height:100px;
+    margin-right:10px ;
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table{
+    border-top: 3px solid #ff523b;
+    width: 80%;
+    margin-right: 10%;
+    max-width:480px;
+}
+td:last-child{
+    text-align:right;  
+}
+th:last-child{
+    text-align: right;
+}
+/*------media query------*/
+@media screen and (max-width:900px){
+    .wrapper .cart-page{
+    grid-auto-columns: calc((100% / 1) - 9px);
+    }    
+
+}
+
+@media screen and (max-width: 600px) {
+    .small-container .cart-page{
+        grid-auto-columns: 100%;
+}
+}
+
+  /*------- footer styling---------*/
+  footer {
+    background: #101010;
+    padding: 10px 0;
+}
+.single-content {
+    text-align: center;
+    padding: 115px 0;
+}
+.single-box p {
+    color: #fff;
+    line-height: 1.9;
+}
+.single-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+.single-box .card-area i {
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.single-box ul {
+    list-style: none;
+    padding: 0;
+}
+.single-box ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 2.5;
+    font-weight: 100;
+}
+.single-box h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+#basic-addon2 {
+    background: #fe1e4f;
+    color: #fff;
+}
+.socials i {
+    font-size: 18px;
+    margin-right: 15px;
+}
+@media (max-width: 767px) {
+    .single-box {
+        margin-bottom: 50px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-box {
+        margin-bottom: 50px;
+    }
+}
+.copyright{
+    justify-content: center;
+    font-family: eczar, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:50%;
+    color: white;
+    align-items: center;
+    font-size: 100%;
+    cursor: pointer;
+        
+    }  
